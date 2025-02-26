@@ -1,0 +1,35 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "moma_sensing"
+version = "1.0.0"
+dependencies = [
+  "rospy",
+  ]
+requires-python = ">=3.8"
+authors = [
+  {name = "Xiaomeng Fang", email = "fangxiaomeng@galbot.com"},
+]
+maintainers = [
+  {name = "Xiaomeng Fang", email = "fangxiaomeng@galbot.com"}
+]
+description = "A package for moma sensing"
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["moma", "sensing"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
+
+[project.optional-dependencies]
+gui = []
+cli = []
+
+[project.urls]
+# Homepage = "ssh://git@git.galbot.com:6043/fangxiaomeng/galbot_sam.git"
+# Documentation = "ssh://git@git.galbot.com:6043/fangxiaomeng/galbot_sam.git"
+Repository = "https://github.com/xiaomengfang/moma_sensing.git"
+"Bug Tracker" = "https://github.com/xiaomengfang/moma_sensing/issues"
